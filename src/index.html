@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head></head>
-	<body>
-		<div id="output"></div>
+	<head>
+      <style>
+		body{font-family:sans-serif; font-size:14px; color:#CCD; overflow-y:auto !important; padding:0px 10px;}
+	</style>
+      <link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/nis.css">
+      <link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/alt1-currentskin/skinstyle.css"/>
+	<link rel="stylesheet" type="text/css" href="https://runeapps.org/runeappslib.css"/>
+</head>
+	<body class="nis">
+		<div class="contentbox">
+			<div id="unlockbutton" class="nisbutton" onclick="dc.start();">Cure Disease</div>
+			<div class="nisseperator"></div>
+			<div id="treatment" class="nistext"></div>
+			<div id="output" class="nistext">Click the button when the disease dialog is open</div>
+		</div>
 		<script src="./index.bundle.js"></script>
 	</body>
 </html>

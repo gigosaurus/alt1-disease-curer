@@ -1,6 +1,12 @@
 {
 	"compilerOptions": {
-		"moduleResolution": "Node"
-	},
+		"moduleResolution": "Node",
+      "lib": [
+        "dom",
+        "es5",
+        "scripthost",
+        "es2015.collection"
+      ]
+    },
 	"allowTsInNodeModules": true
 }
